@@ -134,7 +134,7 @@ Mac OS X版には、字幕やOSD表示するためのテキストレンダラー
         この設定にはチェックを入れます。
     * 「フォントサイズ調整比」「Font size adjustment ratio」  
         1.0を指定します。
-    * 「半角出力時フォントサイズ調整比」「Halfwidth adjustment ratio」 
+    * 「半角出力時フォントサイズ調整比」「Halfwidth adjustment ratio」  
         0.0を指定します。
     * 「水平方向調整値」「Horizontal adjustment value」  
         -12を指定します。
