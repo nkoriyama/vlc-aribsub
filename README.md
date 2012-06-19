@@ -48,8 +48,7 @@ vlc-aribsub
         U+2026 HORIZONTAL ELLIPSISで通常は中点が三つでるような感じになる筈ですが、そうでないフォントもあるため、
         U+22EF MIDLINE HORIZONTAL ELLIPSISに置き換えて表示するための設定です。
     * 「フォントサイズ調整比」「Font size adjustment ratio」  
-        Freetype2フォントレンダラーやコアテキスフォントトレンダラーともに、
-        文字間のスペースを調整することが現状出来ないため、
+        Freetype2フォントレンダラーでは文字間のスペースを調整することが現状出来ないため、
         その分の調整を明示的にフォントサイズを調整することにより行うための設定です。
         デフォルト値は、0.25です。
         数値を増減することにより、フォントのサイズが一定の比率で増減します。
@@ -140,7 +139,7 @@ Mac OS X版には、字幕やOSD表示するためのテキストレンダラー
     * 「位置調整抑制」「Ignore position adjustment」  
         この設定にはチェックを入れます。
     * 「フォントサイズ調整比」「Font size adjustment ratio」  
-        1.0を指定します。
+        0.0を指定します。
     * 「半角出力時フォントサイズ調整比」「Halfwidth adjustment ratio」  
         0.0を指定します。
     * 「水平方向調整値」「Horizontal adjustment value」  
