@@ -142,10 +142,6 @@ Mac OS X版には、字幕やOSD表示するためのテキストレンダラー
         0.0を指定します。
     * 「半角出力時フォントサイズ調整比」「Halfwidth adjustment ratio」  
         0.0を指定します。
-    * 「水平方向調整値」「Horizontal adjustment value」  
-        -12を指定します。
-    * 「垂直方向調整値」「Vertical adjustment value」  
-        12を指定します。
 
 コアテキストフォントレンダラーでヒラギノ使用時に面白いのは、外字設定ファイルで絵文字がでるように指定した場合、
 グラフィカルな絵文字をカラー絵文字フォント(Apple Emoji Font)から出力してくれることです。
