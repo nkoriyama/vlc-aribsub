@@ -68,6 +68,7 @@ vlc-aribsub
         Windows: %APPDATA%\vlc\arib (%APPDATA%はC:\Users\XXX\AppData)  
         Mac OS X: ~/Library/Application Support/org.videolan.vlc/arib  
         Linux: ~/.local/share/vlc/arib
+        Android: /storage/sdcard0/Android/data/org.videolan.vlc/arib
     
     外字置換設定ファイルのフォーマットは、
     ```ini
